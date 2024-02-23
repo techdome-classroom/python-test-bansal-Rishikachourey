@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "program1.py",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test1.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "program2.py",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test2.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
